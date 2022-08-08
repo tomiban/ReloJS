@@ -1,16 +1,14 @@
+  @font-face {
+    font-family: 'Technology';
+    src: url('technology.bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
 
-
-@font-face {
-    
-  font-family: 'Technology';
-  src: url('technology.bold.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
-}
-
-*{
+  *{
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   body{
     font-family:Verdana;
@@ -30,6 +28,7 @@
     text-align: center;
     border-radius: 5px;
     padding: 10px 30px;
+    background: black;
   }
 
   #reloj{
@@ -46,6 +45,31 @@
     color: #F72119;
     font-family: 'Technology';
     letter-spacing: 10px;
-    padding: 10px;
-    padding-left: 15px;
+    padding: 30px 0px 0px 10px;
+  }
+
+  section {
+    margin: 70px;
+    line-height: 30px;
+  }
+
+  p, img, a {
+    vertical-align: middle;
+    padding: 5px;
+  }
+
+  #tec-text {
+    font-size: 30px;
+    margin: 70px;
+  }
+
+  img{
+    border-radius: 150px;
+  }
+
+  a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #9823b6;
+    font-size: 25px;
   }
